@@ -30,7 +30,7 @@ class DotScrapyPersistence(object):
             'ADDONS_AWS_SECRET_ACCESS_KEY'))
         self._bucket = bucket
         self._bucket_folder = (crawler.settings.get(
-            'DOTSCRAPY_AWS_BUCKET_FOLDER') or crawler.settings.get(
+            'DOTSCRAPY_S3_FOLDER') or crawler.settings.get(
             'ADDONS_AWS_USERNAME', ''))
         self._projectid = os.environ['SCRAPY_PROJECT_ID']
         self._spider = os.environ['SCRAPY_SPIDER']

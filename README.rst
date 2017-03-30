@@ -27,10 +27,10 @@ Enable extension through `settings.py`::
 
 Configure the exension through `settings.py`::
 
-    ADDONS_AWS_ACCESS_KEY_ID = "ABC"
-    ADDONS_AWS_SECRET_ACCESS_KEY = "DEF"
-    ADDONS_AWS_USERNAME = "username"
-    ADDONS_S3_BUCKET = "test-bucket-name"
+    DOTSCRAPY_AWS_ACCESS_KEY_ID = "ABC"
+    DOTSCRAPY_AWS_SECRET_ACCESS_KEY = "DEF"
+    DOTSCRAPY_S3_FOLDER = "foldername"
+    DOTSCRAPY_S3_BUCKET = "test-bucket-name"
 
 You can change a dotpersistence folder path with environ::
 
